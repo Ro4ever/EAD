@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline-table;
+}
+
+.navbar ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.imagem_pizza .fontePizzaria{
+    background-image: url("./../img/pizza.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 340px;
+}
+
+.pizza {
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    padding: 10px;
+}
+
+.pizza-name {
+    font-weight: bold;
+}
+
+.ingredients {
+    font-style: italic;
+}
+
+.atendimento {
+    background-color: #a8a8a8; 
+    padding: 20px;
+    text-align: center;
+}
