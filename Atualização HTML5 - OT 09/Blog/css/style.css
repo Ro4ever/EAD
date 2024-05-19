@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(107, 107, 107);
+}
+
+.header {
+    background-color: rgb(150, 150, 150);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7em;
+}
+
+.header p {
+    color: aliceblue;
+    font-size: 3em;
+}
+
+.post {
+    background-color: rgb(0, 0, 0);
+    border-radius: 3px;
+    color: rgb(255, 220, 220);
+    height: 100px;
+}
+
+.post p,
+.post h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
