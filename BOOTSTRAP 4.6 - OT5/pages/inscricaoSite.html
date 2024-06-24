@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xbox Fã Clube</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/site.css">
+</head>
+<body>
+    <header class="bg-dark text-light p-3 mb-3">
+        <img src="../imgs/logo2.png" alt="Logo Xbox Clássico" class="img-fluid">
+        <h1 class="h1 text-success">Xbox Clássico Fã Clube</h1>
+    </header>
+    <nav class="mb-3">
+        <a href="../index.html" class="btn btn-outline-success mb-2">Página inicial</a>
+        <a href="conteudoSite.html" class="btn btn-outline-success mb-2">Saiba mais sobre o Xbox Clássico</a>
+        <a href="inscricaoSite.html" class="btn btn-outline-success mb-2">Inscreva-se no site</a>
+    </nav>
+    <section class="inscricaoSiteXbox container">
+        <h2 class="text-center">Inscreva-se no nosso site!!</h2>
+        <p class="text-center">Preencha o cadastro abaixo para receber dicas sobre jogos deste console incrível!!!</p>
+        <form action="frminscricao" method="post" action="#">
+            <fieldset class="inscreverAoSite form-group">
+                <legend>Cadastro: </legend>
+                <label for="nome">Nome: </label>
+                <input type="text" class="form-control" name="txtnome" id="nome">
+                <label for="fone">Telefone: </label>
+                <input type="text" class="form-control" name="txtfone" id="fone">
+                <label for="email">E-mail: </label>
+                <input type="email" class="form-control" name="txtemail" id="email">
+            </fieldset>
+            <fieldset class="inscreverAoSite form-group">
+                <legend>Pesquisa: </legend>
+                <label for="pesquisaComoConheceu">Como chegou no nosso site?:</label>
+                <select name="selComoConheceu" class="form-control" id="resPesquisa">
+                    <option value="">Escolha uma opcção</option>
+                    <option value="RA">Recomendação de Amigos</option>
+                    <option value="PI">Pesquisando na Internet</option>
+                    <option value="PU">Publicidade</option>
+                </select>
+                <label for="comentario">Deixe seu comentário sobre o site:</label>
+                <textarea name="txtcomentario" class="form-control" id="comentario"></textarea>
+                <button type="reset" class="btn btn-secondary mt-2">Limpar</button>
+                <button type="submit" class="btn btn-success mt-2">Enviar</button>
+            </fieldset>
+        </form>
+    </section>
+    <footer class="bg-dark text-light text-center p-3 mt-3">
+        Copyright &copy; Projeto Pessoal UNISenai
+    </footer>
+</body>
+</html>

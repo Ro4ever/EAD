@@ -1,0 +1,152 @@
+@charset "UTF-8";
+/*Configurações da fonte do site*/
+body{
+    margin: 0 auto;
+    font-family: "Cambria", sans-serif;
+}
+/*Configuração do fundo do cabeçalho*/
+header{
+    height: 170px;
+    background-color:#000000;
+    border: 3px #23a602 solid;
+}
+/*Configuração da logo do xbox da página index.html*/
+header img{
+    float: left;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+}
+/*Configuração da fonte do cabeçalho*/
+header h1{
+    float: left;
+    margin: 60px 0 0 70px;
+    font-size: 50px;
+    color: #23a602;
+}
+/*Configurações da fonte h2 conteúdo da index.html*/
+div h2{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+/*Configurações da fonte h3 conteúdo da index.html*/
+div h3{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+/*Configuração parágrafos da página index.html*/
+.inicialXbox p{
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+/*Configurações parágrafos da página conteudoSite.html*/
+.conteudoXbox p{
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: 5px;
+    font-size: medium;
+}
+/*Configurações das imagens da conteudoSite.html*/
+.imgXboxOriginal{
+    float: left;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+}
+
+.imgLancamentoXbox{
+    float: right;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+}
+
+.imgControleDuke{
+    float: left;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+}
+
+.imgDashboard{
+    float: right;
+    height: 150px;
+    width: 300px;
+    margin: 10px;
+}
+/*Configurações gerais da página, como dimensões da tela, etc*/
+section{
+    clear:both;
+    min-height: 460px;
+    width: 100%;
+    margin-top: 0px;
+}
+/*Configurações da fonte*/
+.inscricaoSiteXbox h2{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+/*Configurações da parágrafo*/
+.inscricaoSiteXbox p{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: medium;
+}
+/*Configurações das caixas de cadastros*/
+.inscreverAoSite{
+    width: 300px;
+    margin: 0px auto;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.inscreverAoSite input, .inscreverAoSite textarea, .inscreverAoSite select{
+    margin: 5px auto;
+    width: 100%;
+    padding: 3px 0;
+}
+
+.inscreverAoSite textarea{
+    height: 80px;
+    resize: none;
+}
+/*Configurações dos botões da caixa de inscrever*/
+.inscreverAoSite button{
+    width: 30%;
+    background-color: #23a602;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 1%;
+}
+/*Tabela*/
+tr,td,th{
+    border: 3px solid #000000;
+    padding: 5px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #000000;
+}
+nav a:hover{
+    color: #23a602;
+    transition-duration: .5s;
+
+}
+/*Rodapé*/
+footer{
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border: 3px #23a602 solid;
+}
