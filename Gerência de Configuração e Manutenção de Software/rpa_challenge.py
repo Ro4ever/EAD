@@ -22,8 +22,8 @@ def run(playwright: Playwright) -> None:
     ultima_linha = planilha.range('A2').end('down').row
 
     # Índices das colunas
-    nome = 2
-    sobrenome = 1
+    nome = 1
+    sobrenome = 2
     empresa = 3
     cargo = 4
     endereco = 5
