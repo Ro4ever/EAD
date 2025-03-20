@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuário</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <div class="sidebar">
+        <ul>
+            <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#"><i class="fas fa-user-plus"></i> Cadastro</a></li>
+            <li><a href="#"><i class="fas fa-cogs"></i> Configurações</a></li>
+            <li><a href="#"><i class="fas fa-question-circle"></i> Ajuda</a></li>
+            <li><a href="#"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+        </ul>
+        <hr>
+        <img src="https://via.placeholder.com/100" alt="Imagem Perfil">
+    </div>
+
+    <header>
+        <h1>Cadastro de Usuário</h1>
+    </header>
+
+    <main>
+        <div class="form-container">
+
+            <section class="form-card">
+                <h2>Informações Pessoais</h2>
+                <form>
+                    <input type="text" placeholder="Nome Completo">
+                    <input type="date">
+                    <select>
+                        <option>Masculino</option>
+                        <option>Feminino</option>
+                        <option>Outro</option>
+                    </select>
+                    <input type="text" placeholder="CPF">
+                    <input type="text" placeholder="RG">
+                    <select>
+                        <option>Solteiro(a)</option>
+                        <option>Casado(a)</option>
+                        <option>Divorciado(a)</option>
+                    </select>
+                    <input type="file" placeholder="Foto de Perfil">
+                    <input type="file" placeholder="Assinatura Digital">
+                </form>
+            </section>
+
+            <section class="form-card">
+                <h2>Contato</h2>
+                <form>
+                    <input type="email" placeholder="E-mail">
+                    <input type="text" placeholder="Telefone">
+                    <input type="text" placeholder="Celular">
+                    <textarea placeholder="Endereço"></textarea>
+                    <input type="text" placeholder="CEP">
+                    <select>
+                        <option>Brasil</option>
+                        <option>Outro</option>
+                    </select>
+                </form>
+            </section>
+
+            <section class="form-card">
+                <h2>Credenciais de Acesso</h2>
+                <form>
+                    <input type="text" placeholder="Nome de Usuário">
+                    <input type="password" placeholder="Senha">
+                    <input type="password" placeholder="Confirmação de Senha">
+                    <select>
+                        <option>Pergunta Secreta 1</option>
+                        <option>Pergunta Secreta 2</option>
+                        <option>Pergunta Secreta 3</option>
+                    </select>
+                    <input type="text" placeholder="Resposta Secreta">
+                    <label><input type="checkbox"> Aceito os Termos de Uso</label>
+                </form>
+            </section>
+
+            <section class="form-card">
+                <h2>Informações Profissionais</h2>
+                <form>
+                    <input type="text" placeholder="Ocupação">
+                    <input type="text" placeholder="Empresa">
+                    <input type="text" placeholder="CNPJ da Empresa">
+                    <input type="text" placeholder="Cargo">
+                    <input type="number" placeholder="Salário Aproximado">
+                    <input type="date" placeholder="Data de Admissão">
+                </form>
+            </section>
+
+            <section class="form-card">
+                <h2>Preferências e Redes Sociais</h2>
+                <form>
+                    <input type="text" placeholder="Gênero Musical Favorito">
+                    <label><input type="checkbox"> Futebol</label>
+                    <label><input type="checkbox"> Leitura</label>
+                    <label><input type="checkbox"> Viagens</label>
+                    <label><input type="checkbox"> Música</label>
+                    <input type="text" placeholder="Facebook">
+                    <input type="text" placeholder="Instagram">
+                    <input type="text" placeholder="LinkedIn">
+                    <select>
+                        <option>Sim</option>
+                        <option>Não</option>
+                    </select>
+                </form>
+            </section>
+
+            <section class="form-card">
+                <h2>Pagamento e Dados Bancários</h2>
+                <form>
+                    <input type="text" placeholder="Número do Cartão de Crédito">
+                    <input type="month" placeholder="Data de Vencimento do Cartão">
+                    <input type="number" placeholder="Código de Segurança (CVV)">
+                    <select>
+                        <option>Banco do Brasil</option>
+                        <option>Caixa</option>
+                        <option>Bradesco</option>
+                    </select>
+                    <input type="text" placeholder="Agência">
+                    <input type="text" placeholder="Conta Corrente">
+                    <select>
+                        <option>Poupança</option>
+                        <option>Corrente</option>
+                    </select>
+                </form>
+            </section>
+
+            <section class="form-card">
+                <h2>Outros Recursos</h2>
+                <form>
+                    <input type="file" placeholder="Upload de Documento PDF">
+                    <label class="switch" for="checkbox">
+                        <input type="checkbox" id="checkbox" />
+                        <div class="slider round"></div>
+                    </label>
+                    <input type="time" placeholder="Horário de Preferência para Contato">
+                    <input type="number" placeholder="Número de Dependentes">
+                    <input type="color" id="color-picker" placeholder="Cor Favorita">
+                    <textarea placeholder="Comentários ou Observações"></textarea>
+                    <div class="form-actions">
+                        <button type="submit" class="save">Salvar</button>
+                        <button type="reset" class="clear">Limpar</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 Cadastro de Usuário</p>
+    </footer>
+
+</body>
+
+</html>

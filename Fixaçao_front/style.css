@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar {
+    width: 220px;
+    height: 100vh;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 20px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.sidebar ul li a:hover {
+    background-color: #444;
+    border-radius: 4px;
+}
+
+.sidebar i {
+    margin-right: 10px;
+}
+
+.sidebar hr {
+    margin: 20px 0;
+    border-color: #444;
+}
+
+.sidebar img {
+    margin-top: 50px;
+    border-radius: 50%;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    left: 220px;
+    width: calc(100% - 220px);
+    z-index: 100;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+main {
+    margin-left: 220px;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+.form-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.form-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+form input,
+form select,
+form textarea,
+form file {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+form textarea {
+    height: 100px;
+}
+
+form label {
+    display: block;
+    margin: 10px 0;
+}
+
+form select,
+form input[type="date"],
+form input[type="month"],
+form input[type="file"] {
+    width: 100%;
+}
+
+h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+}
+
+button.save {
+    background-color: green;
+    color: white;
+cursor: pointer;
+}
+
+
+.form-actions{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+}
+button.clear {
+    background-color: #f4a261;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#color-picker {
+
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: transparent;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#color-picker:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 0, 255, 0.5);
+}
+
+.switch {
+    display: inline-block;
+    height: 34px;
+    position: relative;
+    width: 60px;
+  }
+  
+  .switch input {
+    display:none;
+  }
+  
+  .slider {
+    background-color: #ccc;
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    background-color: #fff;
+    bottom: 4px;
+    content: "";
+    height: 26px;
+    left: 4px;
+    position: absolute;
+    transition: .4s;
+    width: 26px;
+  }
+  
+  input:checked + .slider {
+    background-color: #66bb6a;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(26px);
+  }
+  
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
